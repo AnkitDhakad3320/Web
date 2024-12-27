@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    margin: 20px;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+
+#nav1 {
+    display: flex;
+    gap: 5px;
+    position: relative;
+}
+
+
+#gol {
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+#line {
+    height: 5px;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#nav2 {
+    display: flex;
+    gap: 20px;
+}
+
+#nav2 h4 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#subNav {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 40px;
+}
+
+#subNav h4 {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-right: 40px;
+    margin-top: 20px;
+}
+
+#middle {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* text-align: center; */
+}
+
+#upper {
+    padding: 0px 10px;
+}
+
+#upper h4 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#lower h4 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#lower h1 {
+    font-size: 110px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+
+#rectangle {
+    transform: translateX(100%);
+    width: 30%;
+    text-align: center;
+    height: 5px;
+    background-color: orange;
+}
+
+#down {
+    width: 100%;
+    height: 500px;
+    background-image: url(https://images.unsplash.com/photo-1512316609839-ce289d3eba0a?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: top;
+}
+
+#menu {
+    display: none;
+}
+
+
+@media (max-width:786px) {
+
+    #menu {
+        display: initial;
+    }
+
+
+}
